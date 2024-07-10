@@ -59,17 +59,6 @@ select:focus, input:focus {
   border-color: #1e90ff;
 }
 
-#cep-field {
-  width: calc(100% - 20px); /* Ajusta a largura do campo de CEP */
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  transition: border-color 0.3s;
-  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
-}
-
 .whatsapp-button {
   margin: 20px;
   padding: 15px 30px;
@@ -90,4 +79,37 @@ footer {
   margin-top: 20px;
   font-size: 16px;
   color: #333;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.social-button.instagram {
+  background-color: #E4405F;
+}
+
+.social-button.instagram:hover {
+  background-color: #D73352;
+}
+
+.social-button.tiktok {
+  background-color: #010101;
+}
+
+.social-button.tiktok:hover {
+  background-color: #000000;
 }

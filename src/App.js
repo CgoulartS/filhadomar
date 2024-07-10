@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import logo from './logo-loja.png'; // Certifique-se de que o logo está na pasta src
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Adicione esta linha
 
 function App() {
   const [selectedFio, setSelectedFio] = useState('');
@@ -139,6 +140,24 @@ function App() {
             />
           </div>
           <button className="whatsapp-button" onClick={handleWhatsAppClick}>Fale Conosco no WhatsApp</button>
+        </div>
+        <div className="social-buttons">
+          <a
+            href="https://www.instagram.com/filhadomar.loja/"
+            className="social-button instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram"></i> Instagram
+          </a>
+          <a
+            href="https://www.tiktok.com/@filhadomar.loja"
+            className="social-button tiktok"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-tiktok"></i> TikTok
+          </a>
         </div>
       </header>
       <footer>
