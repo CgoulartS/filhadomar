@@ -2,7 +2,6 @@
   "name": "filhadomar",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -32,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
